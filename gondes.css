@@ -1,0 +1,32 @@
+body {
+background:url(bkground.jpg);
+background-size:510px;
+}
+
+.container {
+  text-align:center;
+  justify-content: center;
+}
+
+.navbar {
+  margin-top:80px;
+}
+
+.pacar {
+  list-style-type: none;
+  margin-top:100px;
+  font-weight:bold ;
+}
+
+.foto {
+  margin-top:20px;
+  height:200px;
+  border-radius: 20px;
+  animation:animasi;
+  animation-duration: 1s;
+}
+
+@keyframes animasi {
+  from {margin-top:100%;}
+  to {margin-top:20px;}
+}

@@ -1,0 +1,48 @@
+body {
+  background:url(gondez.jpg);
+  background-size:480px;
+}
+
+.navbar {
+  list-style-type: none;
+  font-size:35px;
+  text-align:center;
+  margin-right:45px;
+  margin-top:60px;
+  color:white;
+  font-weight:bold;
+}
+
+button {
+  margin-top:100px;
+  margin-left:75px;
+  border-radius:10px;
+  background-color:red;
+  animation:animasi;
+  animation-duration: 1s;
+}
+
+@keyframes animasi {
+  from {margin-top:100%;}
+  to {margin-top:100px;}
+}
+
+button:hover {
+  transition:.2s ease;
+  background:blue;
+}
+
+a:hover {
+  transition:.2s ease;
+  color:red;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  font-size:30px;
+}
+
+.zeus {
+  margin-top:400px;
+}
